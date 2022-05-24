@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class familia(models.model):
+class familia(models.Model):
     profetion=(
        ('ingeniero','ingeniero'),
        ('medico','medico'),
